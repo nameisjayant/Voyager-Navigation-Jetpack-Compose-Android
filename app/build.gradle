@@ -81,4 +81,6 @@ dependencies {
 
     // LiveData integration
     implementation "cafe.adriel.voyager:voyager-livedata:$currentVersion"
+
+
 }
