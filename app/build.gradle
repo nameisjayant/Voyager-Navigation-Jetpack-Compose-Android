@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    'version-catalog'
+    'maven-publish'
 }
 
 android {
@@ -82,5 +84,7 @@ dependencies {
     // LiveData integration
     implementation "cafe.adriel.voyager:voyager-livedata:$currentVersion"
 
+//    implementation(libs.navigator)
+//    implementation(libs.bottomsheetNavigator)
 
 }
